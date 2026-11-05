@@ -3,7 +3,7 @@ import  MovieList  from "../component/MovieList"
 
 function Movies(){
   return (
-    <main className="bg-black text-white h-screen">
+    <main className="bg-black text-white h-full">
       <MovieList/>
       <MovieCard/>
     </main>

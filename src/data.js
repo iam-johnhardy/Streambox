@@ -1,5 +1,5 @@
 import img1 from './assets/img1.jpg'
-
+import spider from './assets/spider.jpg'
 export const MovieList =[
     {
     id:1,
@@ -11,13 +11,13 @@ export const MovieList =[
     movieType: 'Drama',
 }, 
 {
-    id:[1,2,3,4,4,3],
-    name:{img : img1,
-    title : 'The Mountain',
+    id:2,
+    img: spider,
+    title : 'The Spider-Man',
     year : '2026',
     description : 'A gripping drama about life in the Cabrini Green housing project.',
     hours: '1h 15m',
-    movieType: 'Action'},
+    movieType: 'Action'
 },
 {
     id:3,
